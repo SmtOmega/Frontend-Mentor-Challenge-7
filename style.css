@@ -8,7 +8,7 @@ body {
     margin: 0;
     background-image: url("./images/bg-desktop.svg");
     background-size: cover;
-    background-position: center center;
+    background-repeat: no-repeat;
     background-color: hsl(257, 40%, 49%);
     color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -44,7 +44,8 @@ button {
     border-radius: 50px;
     background-color: #fff;
     color: hsl(257, 40%, 49%);
-    padding: 20px 70px;
+    padding: 15px 70px;
+    margin-top: 30px;
     font-size: 20px;
 }
 button:focus {
